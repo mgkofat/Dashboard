@@ -52,6 +52,7 @@
 }
 
 ul {
+  overflow: hidden; 
   margin: 0;
   padding: 0;
   position: fixed;
@@ -61,7 +62,6 @@ ul {
   margin-top:25px;
 }
 ul a
-
 { align-items: center;
   text-align: center;
   text-decoration: none;
@@ -137,3 +137,6 @@ tr:nth-child(even){
   background-color: rgba(216, 220, 226, 0.788); 
 }
 
+body {
+  overflow-x: hidden;
+}
